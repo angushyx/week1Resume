@@ -1,0 +1,250 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+img {
+  vertical-align: middle; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+
+.container {
+  width: 1200px;
+  margin: 0 auto; }
+  .container h2 {
+    font-weight: 700;
+    line-height: 48px;
+    font-size: 32px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #555; }
+    .container h2 > span {
+      line-height: 36px;
+      font-size: 24px;
+      color: #a00404;
+      margin-left: 16px;
+      vertical-align: center; }
+
+.info > h1 {
+  font-size: 80px;
+  margin-top: 40px;
+  padding-bottom: 24px;
+  border-bottom: 2px solid #000; }
+
+.info > img {
+  margin: 48px 0; }
+
+.info .edu {
+  margin-top: 70px; }
+
+.info > ul {
+  line-height: 36px;
+  color: #666;
+  font-size: 24px; }
+  .info > ul > li {
+    margin-top: 16px; }
+
+.skills {
+  background: #415165;
+  height: 460px;
+  margin-top: 64px;
+  color: #fff; }
+  .skills > h2 {
+    font-size: 32px;
+    line-height: 48px;
+    padding-bottom: 8px;
+    padding-top: 24px;
+    border-bottom: 1px solid #fff;
+    margin: 0 auto;
+    text-align: center;
+    width: 1200px; }
+    .skills > h2 > span {
+      margin-left: 16px;
+      font-size: 24px; }
+  .skills ul {
+    margin: 40px auto;
+    padding: 40px auto;
+    width: 230px;
+    border-left: 1px #fff solid;
+    line-height: 36px; }
+    .skills ul li {
+      font-size: 24px;
+      padding-left: 23px;
+      margin-top: 5px; }
+
+.exp {
+  margin-top: 64px; }
+  .exp > ul {
+    margin-left: 24px;
+    border-left: 2px solid #ccc; }
+    .exp > ul > li {
+      margin-left: 24px; }
+      .exp > ul > li > h3 {
+        font-size: 24px;
+        line-height: 36px; }
+      .exp > ul > li > p {
+        font-size: 20px;
+        line-height: 30px;
+        color: #666; }
+
+.mt-24 {
+  margin-top: 24px; }
+
+footer {
+  background: #415165;
+  height: 400px;
+  margin-top: 80px;
+  color: #fff; }
+  footer .contact > h2 {
+    font-size: 32px;
+    line-height: 48px;
+    padding-bottom: 8px;
+    padding-top: 24px;
+    border-bottom: 1px solid #fff;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center; }
+    footer .contact > h2 > span {
+      margin-left: 16px;
+      font-size: 24px; }
+  footer .contact > ul {
+    text-align: center; }
+    footer .contact > ul > li {
+      margin-top: 16px;
+      font-size: 24px;
+      line-height: 36px; }
+
+.icon-group {
+  margin-top: 16px; }
+  .icon-group li {
+    margin: 0 12px;
+    display: inline; }
